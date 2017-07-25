@@ -86,7 +86,7 @@ let x = (false == 0);
 
 // 12.
 let y = (false == "");
-// A.true
+// A. false
 
 
 // 13.
@@ -99,14 +99,14 @@ let a = (null == null);
 // A.true
 
 
-// 25.
+// 15.
 let b = (undefined == undefined);
 // A.true
 
 
 // 16.
 let c = (undefined == null);
-// A.false
+// A.true
 
 
 // 17.
