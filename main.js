@@ -1,9 +1,9 @@
 // Answer the following questions in this file using comments without running the code
-
+Q12, 13, 19, 21, 23, 24
 // 1.
 // What does `givenName` equal right now?
 let givenName;
-// A:undefined
+//undefined
 
 
 // 2.
@@ -43,17 +43,18 @@ math = high - "5";
 // The answer should read "Tim is 33 years old"
 // The answer shoud not be written in a comment.
 let born = 1984;
-let today = 2017
-
+let today = 2017;
+// A:
 let sentence = givenName + "is"+ today - born + "years old";
 console.log(sentence)
-// A:
-
 
 
 // 8.
 // Adjust this code. Store some information in the following variables.
 // A:
+let yourName;
+let instructorName;
+
 let yourName = "Ricki";
 let instructorName = "Gargi";
 
@@ -65,7 +66,7 @@ let instructorName = "Gargi";
 
 // This statement should read correctly
 let statement = yourName + " is taking a class at The Iron Yard, my instructor's name is " + instructorName;
-
+console.log(statement);
 
 // 10.
 // We've created a variable named after each primitive type.
@@ -74,7 +75,7 @@ let myNumber = 5;
 let myString = "5";
 let myBoolean = (10 > 9);
 // This one's a little tricky - think carefully about what makes a value "undefined"!
-let myUndefined = "";
+let myUndefined="";
 // A:
 
 
@@ -84,14 +85,15 @@ let myUndefined = "";
 let x = (false == 0);
 // A.true
 
+
 // 12.
 let y = (false == "");
-// A. false
+// A.true *
 
 
 // 13.
 let z = (0 == "");
-// A.false
+// A.true *
 
 
 // 14.
@@ -121,7 +123,7 @@ let e = (NaN == null);
 
 // 19.
 let f = (NaN == NaN);
-// A.true
+// A.false *
 
 
 // 20.
@@ -130,7 +132,7 @@ let f = (NaN == NaN);
 // A:
 let thirsty = true;
 
-if(thirsty){
+if (thirsty){
   console.log("I'm parched!");
 } else {
   console.log("I've had enough to drink.");
@@ -146,7 +148,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A:True
+// A:false *
 
 
 // 22.
@@ -155,7 +157,7 @@ if(""){
 } else {
 	console.log("False!");
 }
-// A:False
+// A:false
 
 
 // 23.
@@ -167,7 +169,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A:True
+// A:false *
 
 
 // 24.
@@ -176,7 +178,7 @@ if(false){
 } else {
 	console.log("False!");
 }
-// A:True
+// A:false *
 
 
 // 25.
@@ -185,7 +187,7 @@ if(-5 && 5){
 } else {
 	console.log("False!");
 }
-// A:True
+// A:true
 
 
 // 26.
@@ -194,7 +196,7 @@ if("Hello World!"){
 } else {
 	console.log("False!");
 }
-// A:True
+// A:true
 
 
 // 27.
@@ -203,7 +205,7 @@ if({}){
 } else {
 	console.log("False!");
 }
-// A:True
+// A:true
 
 
 // 28.
@@ -212,7 +214,7 @@ if({name: "Yehuda Katz"}){
 } else {
 	console.log("False!");
 }
-// A:True
+// A:true
 
 
 // 29.
@@ -221,7 +223,8 @@ if(new Date()){
 } else {
 	console.log("False!");
 }
-// A:True
+// A:true
+
 
 // 30.
 // Link this file to the sibling `index.html` document, open the file in your browser and make sure there are no errors in your console.
